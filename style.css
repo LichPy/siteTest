@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding-inline: 300px;
+  background: url(startingTown.PNG);
+  background-size: contain;        /* Scales proportionally to cover the screen */
+  /* background: #7D6D61; */
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: url(window2.PNG);
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  background-position: center;   /* Centers the image on the screen */
+  background-size: contain;        /* Scales proportionally to cover the screen */
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 10px;
+}
+
+/* Fake image */
+.border {
+  background-color: #606068;
+  border: 4px solid #F8D868;
+  box-shadow: 0 0 0 6px #484040;
+  width: 100%;
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  
+  width: 150px;            /* Example box size */
+  height: 150px;
+  border: 2px solid #C3DFE0;  /* Visual boundary for the box */
+  background-color: #C3DFE0;
+}
+
+img {
+  max-width: 100%;         /* Prevents image from spilling out */
+  max-height: 100%;        /* Maintains image proportions */
+  height: auto;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #9dad6f;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.centered {
+  text-align: center;
+}
