@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding-inline: 15vw;
+  background: url(trees.PNG);
+  background-size: contain;        /* Scales proportionally to cover the screen */
+  /* background: #7D6D61; */
+}
+
+.pixelify-sans-pixelText{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 3vw;
+  font-size: 40px;
+  text-align: center;
+  background: url(HEADERIMG.PNG);
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  background-position: center;   /* Centers the image on the screen */
+  background-size: contain;        /* Scales proportionally to cover the screen */
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 10px;
+}
+
+/* Fake image */
+.border {
+  background-color: #606068;
+  border: 4px solid #F8D868;
+  box-shadow: 0 0 0 6px #484040;
+  width: 100%;
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  
+  width: 150px;            /* Example box size */
+  height: 150px;
+  border: 2px solid #C3DFE0;  /* Visual boundary for the box */
+  background-color: #C3DFE0;
+}
+
+img {
+  max-width: 100%;         /* Prevents image from spilling out */
+  max-height: 100%;        /* Maintains image proportions */
+  height: auto;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #9dad6f;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.bottom-banner {
+            position: fixed;   /* Locks the element relative to the screen viewport */
+            bottom: 0;         /* Sticks it perfectly to the bottom edge */
+            left: 0;           /* Stretches it starting from the left edge */
+            width: 100vw;       /* Makes the banner span the full width of the screen */
+            height: 8vw;      /* Set your desired banner height */
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;     /* Keeps the banner stacked on top of all other elements */
+            <span>test</span>
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
