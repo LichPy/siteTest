@@ -15,7 +15,7 @@ body {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: url(window.PNG);
+  background: url(HEADERIMG.PNG);
   background-repeat: no-repeat;  /* Prevents the image from repeating */
   background-position: center;   /* Centers the image on the screen */
   background-size: contain;        /* Scales proportionally to cover the screen */
