@@ -4,15 +4,22 @@
 
 body {
   font-family: Arial;
-  padding-inline: 300px;
+  padding-inline: 15vw;
   background: url(startingTown.PNG);
   background-size: contain;        /* Scales proportionally to cover the screen */
   /* background: #7D6D61; */
 }
 
+.pixelify-sans-pixelText{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Header/Blog Title */
 .header {
-  padding: 30px;
+  padding: 3vw;
   font-size: 40px;
   text-align: center;
   background: url(HEADERIMG.PNG);
@@ -66,6 +73,7 @@ img {
   background-color: #9dad6f;
   padding: 20px;
   margin-top: 10px;
+  border-radius: 12px;
 }
 
 /* Clear floats after the columns */
@@ -94,3 +102,5 @@ img {
 .centered {
   text-align: center;
 }
+
+
