@@ -10,13 +10,13 @@ const nextSongButton = document.getElementById("next-song");
 
 const songs = [
     {
-        image: "./music/kisscover.PNG",
+        image: "./music/kisscover.png",
         name: "Kiss",
         artist: "Lil Peep",
         audio: "./music/songs/Kiss by Lil Peep.mp3"
     },
     {
-        image: "./music/euphoria.PNG",
+        image: "./music/euphoriacover.png",
         name: "Euphoria",
         artist: "Keshi",
         audio: "./music/songs/Euphoria by Keshi.mp3"
