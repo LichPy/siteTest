@@ -3,8 +3,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   padding-inline: 15vw;
   background: black;
-  background-size: contain;        /* Scales proportionally to cover the screen */
-  /* background: #7D6D61; */
 }
 
 #music-player{
