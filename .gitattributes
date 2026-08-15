@@ -1,0 +1,6 @@
+# Treat all image and binary files explicitly as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
