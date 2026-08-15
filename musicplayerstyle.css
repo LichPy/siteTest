@@ -2,7 +2,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding-inline: 15vw;
-  background: url(trees.PNG);
+  background: black;
   background-size: contain;        /* Scales proportionally to cover the screen */
   /* background: #7D6D61; */
 }
@@ -23,6 +23,11 @@ body {
 #song-name{
   margin-top: 20px;
   font-size: 2em;
+  color: rgb(62, 0, 0);
+}
+
+#song-artist{
+  color: rgb(62, 0, 0);
 }
 
 #music-buttons{
@@ -55,5 +60,6 @@ body {
   background: black;
   width: 15px;
   height: 15px;
+  border: 1px solid rgb(255, 77, 0);
   border-radius: 50%;
 }
