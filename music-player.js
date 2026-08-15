@@ -10,7 +10,7 @@ const nextSongButton = document.getElementById("next-song");
 
 const songs = [
     {
-        image: "./music/kiss.PNG",
+        image: "./music/kisscover.PNG",
         name: "Kiss",
         artist: "Lil Peep",
         audio: "./music/songs/Kiss by Lil Peep.mp3"
